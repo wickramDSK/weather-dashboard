@@ -12,6 +12,8 @@ A modern, responsive weather dashboard built with React. Instantly view current 
 
 ## Screenshots
 
+
+
 ## Technologies Used
 
 - [React](https://react.dev/)
@@ -32,7 +34,7 @@ A modern, responsive weather dashboard built with React. Instantly view current 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/weather-dashboard.git
+   git clone https://github.com/wickramDSK/weather-dashboard.git
    ```
 
 2. **Navigate to the project directory:**
