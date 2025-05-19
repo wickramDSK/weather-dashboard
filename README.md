@@ -12,7 +12,9 @@ A modern, responsive weather dashboard built with React. Instantly view current 
 
 ## Screenshots
 
+![Home Screen](screenshots/weather_dashboard_main.png)
 
+![Forecast View](screenshots/weather_dashboard_search.png)
 
 ## Technologies Used
 
