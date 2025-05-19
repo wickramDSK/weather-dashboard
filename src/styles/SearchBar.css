@@ -1,0 +1,16 @@
+.search-bar{
+  position: relative;
+  z-index: 1000; /* Make sure it’s above everything else */
+}
+
+.search-bar input.form-control {
+  background-color: #2c2c3e;
+  color: #ffffff;
+  border: 1px solid #fafafa8f;
+  width: 300px;
+}
+
+.search-bar input::placeholder {
+  color: #a7afde;
+  opacity: 1;
+}

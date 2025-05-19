@@ -1,0 +1,112 @@
+.weather-overview {
+  background: linear-gradient(135deg, #2c2c3e, #1e213a);
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.city-name {
+  font-size: 3rem;
+  font-weight: 650;
+  margin-bottom: 0.5rem;
+}
+
+.temperature {
+  font-size: 2.5rem;
+  font-weight: 550;
+  color: #ffd700;
+  margin-bottom: 0;
+}
+
+.weather-emoji {
+  font-size: 2.5rem;
+}
+
+.condition-badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  text-transform: capitalize;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* custom colors for each condition */
+.condition-badge.sunny {
+  background-color: #fbbf24; /* sunny yellow */
+  color: #000;
+}
+.condition-badge.clear {
+  background-color: #facc15; /* sunny yellow */
+  color: #000;
+}
+.condition-badge.clouds {
+  background-color: #a0aec0; /* gray-blue */
+  color: #000;
+}
+.condition-badge.rain {
+  background-color: #60a5fa; /* blue */
+  color: #000;
+}
+.condition-badge.thunderstorm {
+  background-color: #a78bfa; /* purple */
+  color: #000;
+}
+.condition-badge.snow {
+  background-color: #e0f2fe;
+  color: #000;
+}
+.condition-badge.mist,
+.condition-badge.fog {
+  background-color: #cbd5e0;
+  color: #000;
+}
+
+.weather-metrics {
+  font-size: 0.95rem;
+}
+
+.metric-badge {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s;
+}
+
+.metric-badge:hover {
+  transform: scale(1.05);
+}
+
+.humidity-badge {
+  background-color: #a5f3fc; /* light aqua */
+}
+
+.wind-badge {
+  background-color: #bae6fd; /* soft blue */
+}
+
+.weather-date-time {
+  min-width: 120px;
+  padding-left: 1rem;
+  text-align: right;
+  color: #d3d3d3;
+  line-height: 1.4;
+  font-size: 1.8rem;
+}
+
+.weather-date-time .fs {
+  color: #ffd700;
+}
+

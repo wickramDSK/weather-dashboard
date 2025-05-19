@@ -1,0 +1,63 @@
+.hourly-forecast {
+  background: linear-gradient(135deg, #2c2c3e, #1e213a);
+  color: #ffffff;
+  overflow-x: auto; /* Allow horizontal scroll on small screens */
+  padding-bottom: 1rem;
+}
+
+.hourly-forecast h5 {
+  color: #f0f0f0;
+  font-weight: 600;
+  border-bottom: 1px solid #444a6d;
+  padding-bottom: 0.5rem;
+}
+
+.hourly-forecast .forecast-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Ensure single row */
+  min-width: 100%;
+}
+
+.forecast-item {
+  background-color: #3b3f5882;
+  flex: 1 0 16%; /* 6 items = ~16% each */
+  min-width: 140px;
+  max-width: 180px;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: transform 0.2s ease;
+}
+
+.forecast-icon {
+  margin: 0.75rem 0;
+  width: 70px;
+  height: 70px;
+   filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.7));
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+
+.forecast-temp {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.forecast-main {
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.forecast-time {
+  font-weight: 600;
+  font-size: 1rem;
+}

@@ -1,0 +1,21 @@
+.app-footer {
+  background-color: #1e213a;
+  color: #ffffff;
+  font-size: 0.9rem;
+  border-top: 1px solid #444a6d;
+}
+
+.footer-link {
+  color: #89c0ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.github-logo {
+  height: 30px;
+  vertical-align: middle;
+}
